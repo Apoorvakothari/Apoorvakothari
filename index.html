@@ -1,152 +1,317 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="Portfolio" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/fa62c117c7.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="styles.css" />
+    <title>Apoorva Kothari</title>
+  </head>
 
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <meta name="description" content="Portfolio" />
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap" rel="stylesheet" />
-  <script src="https://kit.fontawesome.com/fa62c117c7.js" crossorigin="anonymous"></script>
-  <link rel="stylesheet" href="styles.css" />
-  <title>Apoorva Kothari</title>
-</head>
+  <body class="light" id="top">
+    <header class="header center">
+      <h3>
+        <a
+          href="https://github.com/Apoorvakothari/Portfolio-ApoorvaKothari"
+          class="link"
+          >AK.</a
+        >
+      </h3>
 
-<body class="light" id="top">
-  <header class="header center">
-    <h3>
-      <a href="https://github.com/Apoorvakothari/Portfolio-ApoorvaKothari" class="link">AK.</a>
-    </h3>
+      <nav class="nav center">
+        <ul class="nav__list center">
+          <li class="nav__list-item">
+            <a class="link link--nav" href="#projects">Projects</a>
+          </li>
+          <li class="nav__list-item">
+            <a class="link link--nav" href="#skills">Skills</a>
+          </li>
+          <li class="nav__list-item">
+            <a class="link link--nav" href="#contact">Contact</a>
+          </li>
+        </ul>
 
-    <nav class="nav center">
-      <ul class="nav__list center">
-        <li class="nav__list-item">
-          <a class="link link--nav" href="#projects">Projects</a>
-        </li>
-        <li class="nav__list-item">
-          <a class="link link--nav" href="#skills">Skills</a>
-        </li>
-        <li class="nav__list-item">
-          <a class="link link--nav" href="#contact">Contact</a>
-        </li>
-      </ul>
+        <button type="button" aria-label="toggle theme" class="btn btn--icon">
+          <i aria-hidden="true" id="btn-theme" class="fas fa-moon"></i>
+        </button>
 
-      <button type="button" aria-label="toggle theme" class="btn btn--icon">
-        <i aria-hidden="true" id="btn-theme" class="fas fa-moon"></i>
-      </button>
+        <button
+          type="button"
+          aria-label="toggle navigation"
+          class="btn btn--icon nav__hamburger"
+        >
+          <i aria-hidden="true" class="fas fa-bars"></i>
+        </button>
+      </nav>
+    </header>
 
-      <button type="button" aria-label="toggle navigation" class="btn btn--icon nav__hamburger">
-        <i aria-hidden="true" class="fas fa-bars"></i>
-      </button>
-    </nav>
-  </header>
+    <main>
+      <!-- About -->
+      <div class="about center">
+        <h1>
+          Hey<span class="wave">👋</span> I am
+          <span class="about__name">Apoorva Kothari</span>
+        </h1>
+        <h2 class="about__role">Always a Learner.</h2>
+        <p class="about__desc">
+          Hello, world!, I'm Apoorva a front-end Developer and Cloud Engineer. I
+          am a tech enthusiast on a mission to explore new horizons in web
+          development and cloud computing. As someone who believes in the power
+          of knowledge and continuous learning, I am constantly seeking new
+          opportunities to expand my skills and stay ahead of the curve in this
+          rapidly evolving industry.
+        </p>
 
-  <main>
-    <!-- About -->
-    <div class="about center">
-      <h1>Hey<span class="wave">👋</span> I am <span class="about__name">Apoorva Kothari</span></h1>
-      <h2 class="about__role">Always a Learner.</h2>
-      <p class="about__desc">
-        Hello, world!, I'm Apoorva, a sophomore pursuing B.Tech in Information Technology at the Indian Institute of
-        Information Technology, Lucknow. I am a front-end Developer and Devops Engineer. I am a tech enthusiast on a mission to explore new horizons in web development and cloud computing. As someone who believes in the power of knowledge and continuous learning, I am constantly seeking new opportunities to expand my skills and stay ahead of the curve in this rapidly evolving industry.
-      </p>
-
-      <div class="about__contact center">
-        <a href="https://drive.google.com/file/d/1Cl0OVAPWJJQ_lZQOozvvK_Szkqhtny1o/view?usp=sharing" target="_blank">
-          <span class="btn btn--outline center">Resume</span>
-        </a>
-        <div class="nav_buttons">
-          <a href="https://github.com/Apoorvakothari" aria-label="github" class="link link--icon" target="_blank">
-            <i aria-hidden="true" class="fab fa-github"></i>
+        <div class="about__contact center">
+          <a
+            href="https://drive.google.com/file/d/1Cl0OVAPWJJQ_lZQOozvvK_Szkqhtny1o/view?usp=sharing"
+            target="_blank"
+          >
+            <span class="btn btn--outline center">Resume</span>
           </a>
+          <div class="nav_buttons">
+            <a
+              href="https://github.com/Apoorvakothari"
+              aria-label="github"
+              class="link link--icon"
+              target="_blank"
+            >
+              <i aria-hidden="true" class="fab fa-github"></i>
+            </a>
 
-          <a href="https://www.linkedin.com/in/apoorva-kothari-b34391229/" aria-label="linkedin" class="link link--icon"
-            target="_blank">
-            <i aria-hidden="true" class="fab fa-linkedin"></i>
-          </a>
-          <a href="https://www.instagram.com/invites/contact/?i=b16edp7ai9ni&utm_content=mrztm2o" aria-label="Instagram" class="link link--icon"
-            target="_blank">
-            <i aria-hidden="true" class="fab fa-instagram"></i>
-          </a>
-          <a href="https://twitter.com/ApoorvaKothari7" aria-label="Twitter" class="link link--icon"
-            target="_blank">
-            <i aria-hidden="true" class="fab fa-twitter"></i>
-          </a>
-          <a href="discordapp.com/users/923105765902938153" aria-label="Discord" class="link link--icon"
-            target="_blank">
-            <i aria-hidden="true" class="fab fa-discord"></i>
-          </a>
+            <a
+              href="https://www.linkedin.com/in/apoorva-kothari-b34391229/"
+              aria-label="linkedin"
+              class="link link--icon"
+              target="_blank"
+            >
+              <i aria-hidden="true" class="fab fa-linkedin"></i>
+            </a>
+            <a
+              href="https://www.instagram.com/invites/contact/?i=b16edp7ai9ni&utm_content=mrztm2o"
+              aria-label="Instagram"
+              class="link link--icon"
+              target="_blank"
+            >
+              <i aria-hidden="true" class="fab fa-instagram"></i>
+            </a>
+            <a
+              href="https://twitter.com/ApoorvaKothari7"
+              aria-label="Twitter"
+              class="link link--icon"
+              target="_blank"
+            >
+              <i aria-hidden="true" class="fab fa-twitter"></i>
+            </a>
+            <a
+              href="discordapp.com/users/923105765902938153"
+              aria-label="Discord"
+              class="link link--icon"
+              target="_blank"
+            >
+              <i aria-hidden="true" class="fab fa-discord"></i>
+            </a>
+          </div>
         </div>
       </div>
+
+      <!-- Projects -->
+      <section id="projects" class="section projects">
+        <h2 class="section__title">Projects</h2>
+
+        <!--  -->
+        <div class="projects__grid">
+          <div class="project">
+          <div>
+            <h3>IIIT Lucknow Conference</h3>
+            <p class="project__description">
+              A website for hosting and calling out invitations for research
+              conference held at IIITL
+            </p>
+            <ul class="project__stack">
+              <li class="project__stack-item">HTML |</li>
+              <li class="project__stack-item">CSS |</li>
+              <li class="project__stack-item">JavaScript |</li>
+              <li class="project__stack-item">Git</li>
+            </ul>
+          </div>
+
+          <span>
+            <a
+              href="https://github.com/Apoorvakothari/IIIT-L-Conference"
+              aria-label="source code"
+              target="_blank"
+              class="link link--icon"
+            >
+              <i aria-hidden="true" class="fab fa-github"></i>
+            </a>
+            <a
+              href="https://apoorvakothari.github.io/IIIT-L-Conference/Conference/"
+              aria-label="live preview"
+              class="link link--icon"
+              target="_blank"
+            >
+              <i aria-hidden="true" class="fas fa-external-link-alt"></i>
+            </a>
+          </span>
+          </div>
+
+          <div class="project">
+          <div>
+            <h3>Movies For You</h3>
+            <p class="project__description">
+              A website where one can view, search, wishlist and get details of
+              movies and sort movies on basis of genre.
+            </p>
+            <ul class="project__stack">
+              <li class="project__stack-item">HTML |</li>
+              <li class="project__stack-item">CSS |</li>
+              <li class="project__stack-item">JavaScript</li>
+              <li class="project__stack-item">API |</li>
+              <li class="project__stack-item">Git</li>
+            </ul>
+          </div>
+
+          <span>
+            <a
+              href="https://github.com/Apoorvakothari/Movie-API"
+              aria-label="source code"
+              target="_blank"
+              class="link link--icon"
+            >
+              <i aria-hidden="true" class="fab fa-github"></i>
+            </a>
+            <a
+              href="https://movies-for-you.netlify.app/"
+              aria-label="live preview"
+              class="link link--icon"
+              target="_blank"
+            >
+              <i aria-hidden="true" class="fas fa-external-link-alt"></i>
+            </a>
+          </span>
+          </div>
+
+          <div class="project">
+            <div>
+            <h3>Rock-Paper-Scissors-Lizard-Spock</h3>
+            <p class="project__description">
+              The advanced Rock-Paper-Scissors inspired by the Big Bang Theory
+            </p>
+            <ul class="project__stack">
+              <li class="project__stack-item">| HTML |</li>
+              <li class="project__stack-item">CSS |</li>
+              <li class="project__stack-item">Vanilla JS |</li>
+              <li class="project__stack-item">Git |</li>
+            </ul>
+          </div>
+
+          <span>
+            <a
+              href="https://github.com/Apoorvakothari"
+              aria-label="source code"
+              target="_blank"
+              class="link link--icon"
+            >
+              <i aria-hidden="true" class="fab fa-github"></i>
+            </a>
+            <a
+              href="https://rpslo.netlify.app/"
+              aria-label="live preview"
+              class="link link--icon"
+              target="_blank"
+            >
+              <i aria-hidden="true" class="fas fa-external-link-alt"></i>
+            </a>
+          </span>
+          </div>
+
+          <div class="project">
+            <div>
+              <h3>Covid Management Program</h3>
+              <p class="project__description">
+                The project aims to unify workflows across platforms to manage
+                covid patients and help citizens quickly get vaccines.
+              </p>
+              <ul class="project__stack">
+                <li class="project__stack-item">C |</li>
+                <li class="project__stack-item">Git</li>
+              </ul>
+            </div>
+
+            <span>
+              <a
+                href="https://github.com/Apoorvakothari"
+                aria-label="source code"
+                target="_blank"
+                class="link link--icon"
+              >
+                <i aria-hidden="true" class="fab fa-github"></i>
+              </a>
+              <a
+                href="https://github.com/Apoorvakothari/Covid-managment-program-C"
+                aria-label="live preview"
+                class="link link--icon"
+                target="_blank"
+              >
+                <i aria-hidden="true" class="fas fa-external-link-alt"></i>
+              </a>
+            </span>
+          </div>
+        </div>
+      </section>
+
+      <!-- Skills -->
+      <section class="section skills" id="skills">
+        <h2 class="section__title">Skills</h2>
+        <ul class="skills__list">
+          <li class="skills__list-item btn btn--plain">C++/C</li>
+          <li class="skills__list-item btn btn--plain">Python</li>
+          <li class="skills__list-item btn btn--plain">JavaScript</li>
+          <li class="skills__list-item btn btn--plain">React</li>
+          <li class="skills__list-item btn btn--plain">Latex</li>
+          <li class="skills__list-item btn btn--plain">HTML</li>
+          <li class="skills__list-item btn btn--plain">CSS</li>
+          <li class="skills__list-item btn btn--plain">Git</li>
+          <li class="skills__list-item btn btn--plain">GitHub</li>
+        </ul>
+      </section>
+
+      <!-- Contact -->
+      <section class="section contact center" id="contact">
+        <h2 class="section__title">Contact</h2>
+        <a href="mailto:lit202029@iiitl.ac.in">
+          <span class="btn btn--outline">Email me</span>
+        </a>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <a
+        href="https://github.com/Shoray2002/Shoray2002.github.io"
+        class="link footer__link"
+        target="_blank"
+      >
+        Created By Apoorva Kothari
+      </a>
+    </footer>
+
+    <div class="scroll-top">
+      <a aria-label="Scroll up" href="#top">
+        <i aria-hidden="true" class="fas fa-arrow-up"></i>
+      </a>
     </div>
 
-    <!-- Projects -->
-    <section id="projects" class="section projects">
-      <h2 class="section__title">Projects</h2>
-
-      <!--  -->
-        <div class="project">
-          <h3>Rock-Paper-Scissors-Lizard-Spock</h3>
-          <p class="project__description">
-            A simple game of advanced Rock-Paper-Scissors inspired by the Big
-            Bang Theory
-          </p>
-          <ul class="project__stack">
-            <li class="project__stack-item">HTML</li>
-            <li class="project__stack-item">CSS</li>
-            <li class="project__stack-item">Vanilla JS</li>
-          </ul>
-
-          <a href="https://github.com/Apoorvakothari" aria-label="source code"
-            target="_blank" class="link link--icon">
-            <i aria-hidden="true" class="fab fa-github"></i>
-          </a>
-          <a href="https://rpslo.netlify.app/" aria-label="live preview" class="link link--icon" target="_blank">
-            <i aria-hidden="true" class="fas fa-external-link-alt"></i>
-          </a>
-        </div>
-      </div>
-    </section>
-
-    <!-- Skills -->
-    <section class="section skills" id="skills">
-      <h2 class="section__title">Skills</h2>
-      <ul class="skills__list">
-        <li class="skills__list-item btn btn--plain">C++/C</li>
-        <li class="skills__list-item btn btn--plain">Python</li>
-        <li class="skills__list-item btn btn--plain">JavaScript</li>
-        <li class="skills__list-item btn btn--plain">React</li>
-        <li class="skills__list-item btn btn--plain">Latex</li>
-        <li class="skills__list-item btn btn--plain">HTML</li>
-        <li class="skills__list-item btn btn--plain">CSS</li>
-        <li class="skills__list-item btn btn--plain">Git</li>
-        <li class="skills__list-item btn btn--plain">GitHub</li>
-      </ul>
-    </section>
-
-    <!-- Contact -->
-    <section class="section contact center" id="contact">
-      <h2 class="section__title">Contact</h2>
-      <a href="mailto:lit202029@iiitl.ac.in">
-        <span class="btn btn--outline">Email me</span>
-      </a>
-    </section>
-  </main>
-
-  <footer class="footer">
-    <a href="https://github.com/Shoray2002/Shoray2002.github.io" class="link footer__link" target="_blank">
-      Created By Apoorva Kothari
-    </a>
-  </footer>
-
-  <div class="scroll-top">
-    <a aria-label="Scroll up" href="#top">
-      <i aria-hidden="true" class="fas fa-arrow-up"></i>
-    </a>
-  </div>
-
-  <script src="./script.js"></script>
-</body>
-
+    <script src="./script.js"></script>
+  </body>
 </html>
