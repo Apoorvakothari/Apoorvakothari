@@ -20,7 +20,7 @@
 
 <a href="#" ><img width="400" align="right" style="margin-lefts:25x;" height="auto" src="https://i.imgur.com/iXuL1HG.png"/></a>
 
-- 👨‍🎓 Pre final year at **[IIIT Lucknow](https://iiitl.ac.in/)**
+- 👨‍🎓 Final year at **[IIIT Lucknow](https://iiitl.ac.in/)**
 
 - 📚 I’m currently exploring **devops** and **blockchain**
 
